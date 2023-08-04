@@ -5,7 +5,6 @@
 struct Trie
 {
     struct Trie *children[26];
-    int isWord;
     int count;
 };
 
